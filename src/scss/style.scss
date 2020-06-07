@@ -1,0 +1,27 @@
+.row {
+  clear: both;
+  .cell {
+    float: left;
+    width: var(--cell-size);
+    height: var(--cell-size);
+    border: 1px solid;
+    &.empty {
+      background: #ccc;
+      text-align: center;
+      line-height: var(--cell-size);
+    }
+    &.flag {
+      background: #ff0000;
+    }
+    &.question {
+      background: #0000ff;
+    }
+    &.mine {
+      background: #00ff00;
+    }
+  }
+}
+
+.victory {
+  color: #ff0000;
+}

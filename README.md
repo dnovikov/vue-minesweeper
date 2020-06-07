@@ -1,4 +1,4 @@
-# vue-minesweeper
+# Yet another simplistic Minesweeper written in Vue + Vuex
 
 ## Project setup
 ```
