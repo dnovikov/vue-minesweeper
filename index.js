@@ -5,6 +5,6 @@ const app = express();
 app.use(express.static('dist'));
 
 
-app.listen(3000, function () {
+app.listen(process.env.PORT || 3000, function () {
   console.log('vue-minesweeper listening on port 3000!');
 });
